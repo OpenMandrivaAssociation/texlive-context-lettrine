@@ -1,3 +1,9 @@
+# revision 23167
+# category ConTeXt
+# catalog-ctan /macros/context/contrib/context-lettrine
+# catalog-date 2009-01-30 23:54:25 +0100
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-context-lettrine
 Version:	20090130
 Release:	1
@@ -45,6 +51,7 @@ This is a re-implementation of the LaTeX package lettrine.
 %doc %{_texmfdistdir}/doc/context/third/lettrine/W.pdf
 %doc %{_texmfdistdir}/doc/context/third/lettrine/lettrine-doc.pdf
 %doc %{_texmfdistdir}/doc/context/third/lettrine/lettrine-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ This is a re-implementation of the LaTeX package lettrine.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
