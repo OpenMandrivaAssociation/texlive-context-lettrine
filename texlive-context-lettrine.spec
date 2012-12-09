@@ -47,3 +47,17 @@ This is a re-implementation of the LaTeX package lettrine.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090130-2
++ Revision: 750501
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090130-1
++ Revision: 718136
+- texlive-context-lettrine
+- texlive-context-lettrine
+- texlive-context-lettrine
+- texlive-context-lettrine
+
