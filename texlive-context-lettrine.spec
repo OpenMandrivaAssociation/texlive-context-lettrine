@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-context-lettrine
 Version:	20090130
-Release:	2
+Release:	3
 Summary:	A ConTeXt implementation of lettrines
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-lettrine
