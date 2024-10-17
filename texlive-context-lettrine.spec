@@ -3,7 +3,7 @@ Version:	47085
 Release:	2
 Summary:	A ConTeXt implementation of lettrines
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/context/contrib/context-lettrine
+URL:		https://www.ctan.org/tex-archive/macros/context/contrib/context-lettrine
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-lettrine.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-lettrine.doc.r%{version}.tar.xz
